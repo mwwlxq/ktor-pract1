@@ -1,0 +1,18 @@
+### Отправить матрицу 2×2 на вычисление определителя
+POST http://localhost:8080/compute
+Content-Type: application/json
+
+{
+  "matrix": [[1, 2], [3, 4]]
+}
+
+### Отправить матрицу 3×3
+POST http://localhost:8080/compute
+Content-Type: application/json
+
+{
+  "matrix": [[1, 0, 0], [0, 2, 0], [0, 0, 3]]
+}
+
+### Получить результат (замените ID на полученный)
+GET http://localhost:8080/result/b0ad6f8a-78c0-4938-a79d-4a1baed142c6
