@@ -1,3 +1,4 @@
+//вычисление определителя методом Гаусса
 package com.example.engine
 
 import kotlinx.coroutines.Dispatchers
